@@ -117,7 +117,6 @@ function windowResized() {
 
 
 function dessinerCamera() {
-   console.log("camera data", camera.imageData)
     if (camera.width == 0) {
         camera.width = camera.imageData.width
         camera.height = camera.imageData.height
